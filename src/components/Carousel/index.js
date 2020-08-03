@@ -18,11 +18,11 @@ function Carousel({
           <Title style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
+          {categoryExtraLink && (
+            <ExtraLink href={categoryExtraLink.url} >
               {categoryExtraLink.text}  
             </ExtraLink>
-          }
+          )}
         </>
       )}
       <Slider>

@@ -1,16 +1,201 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "nome": "Front-End",
-            "descricao": "Uma categoria bacana",
-            "cor": "#cbd1ff"
-        },
-        {
-            "id": 2,
-            "nome": "Back-End",
-            "descricao": "Outra categoria bacana",
-            "cor": "#cbd1ff"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Finanças e Investimentos",
+      "cor": "#49a437",
+      "link_extra": {
+        "text": "Investimentos em 2020",
+        "url": "/"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Minecraft",
+      "cor": "#a96308",
+      "link_extra": {
+        "text": "O guia básico",
+        "url": "/"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Filmes e Séries",
+      "cor": "#ce3415",
+      "link_extra": {
+        "text": "Trailers",
+        "url": "/"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Esportes Radicais",
+      "cor": "#efff27",
+      "link_extra": {
+        "text": "Adrenalina pura 😮",
+        "url": "/"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Animais",
+      "cor": "#993399",
+      "link_extra": {
+        "text": "Animais curiosos",
+        "url": "/"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Como investir com pouco de dinheiro em 2020",
+      "url": "https://www.youtube.com/watch?v=9ofihrrKzII"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Top 3 ações para agosto",
+      "url": "https://www.youtube.com/watch?v=LL_cM0Pfmyw"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Os melhores e piores investimentos de 2020",
+      "url": "https://www.youtube.com/watch?v=fDU9bVD-JeM"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Ganhe dinheiro em 2020",
+      "url": "https://www.youtube.com/watch?v=-HJn3vgOx_M"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Qual o melhor investimento da renda fixa para 2020?",
+      "url": "https://www.youtube.com/watch?v=5BZv5J4eG94"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "Guia Básico sobre Redstone",
+      "url": "https://www.youtube.com/watch?v=JOFdZgL03yI"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "Nova Farm de villager no Minecraft 1.15+",
+      "url": "https://www.youtube.com/watch?v=wc1WJuEMmvo"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Como jogar no Minecraft",
+      "url": "https://www.youtube.com/watch?v=WYfzHd1phLE"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "10 dicas para iniciantes no Minecraft",
+      "url": "https://www.youtube.com/watch?v=ppr5PY8rABQ"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "O projeto que durou 5 anos - Viniccius 13",
+      "url": "https://www.youtube.com/watch?v=BobylUBqrJ8"
+    },
+    {
+      "id": 11,
+      "categoriaId": 3,
+      "titulo": "Entre facas e segredos trailer",
+      "url": "https://www.youtube.com/watch?v=w8GBFvqP1cM"
+    },
+    {
+      "id": 12,
+      "categoriaId": 3,
+      "titulo": "Em ritmo de fuga trailer",
+      "url": "https://www.youtube.com/watch?v=FITi71JesiI"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Garota exemplar trailer",
+      "url": "https://www.youtube.com/watch?v=8qrbA8WjJJo"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Moonlight trailer",
+      "url": "https://www.youtube.com/watch?v=cHy9GJ2TLNY"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "A história de um casamento trailer",
+      "url": "https://www.youtube.com/watch?v=ZzSomaJAIMc"
+    },
+    {
+      "id": 16,
+      "categoriaId": 4,
+      "titulo": "Vôo-livre",
+      "url": "https://www.youtube.com/watch?v=DaT1slqf6uE"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Rapel",
+      "url": "https://www.youtube.com/watch?v=WUXU3-nQSbw"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Motocross",
+      "url": "https://www.youtube.com/watch?v=iBjTZIkD6cs"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Surf",
+      "url": "https://www.youtube.com/watch?v=OU4d3O_VZCk"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Street luge",
+      "url": "https://www.youtube.com/watch?v=rOzT8ZZj9Qg"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Tigre azul",
+      "url": "https://www.youtube.com/watch?v=IfeKK3b0iU8"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Vídeo de Coala",
+      "url": "https://www.youtube.com/watch?v=dDQQlYQG5Hc"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Onça pintada",
+      "url": "https://www.youtube.com/watch?v=kh7pjDCkM7Y"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Coelho",
+      "url": "https://www.youtube.com/watch?v=HFkFyYsUltA"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Life of rare panda",
+      "url": "https://www.youtube.com/watch?v=yYp_Shk7XcI"
+    }
+  ]
 }
